@@ -1,0 +1,25 @@
+db/connection.php: Denna fil ansluter webbsidan tillsammans med databasen så att databasens information ska kunna visas upp.
+
+js/clock.js: Denna fil innehåller en analog klocka som används vid inloggnings och utloggnins sidan.
+
+logic/logic.php: Denna fil tar hand om grundlig logic så som att man tar sig rätt på sidan och att uppläggen hanteras på ett bra sätt.
+
+logic/login.php: Logiken i denna filen är mer baserad runt inloggningen och hantering av den datan.
+
+logic/sqlfunktions.php: Logik om hur historiken laddas ifrån databasen och upp på webbsidan.
+
+style/stylesheet.css: Min css fil där styling finns.
+
+visual/pages/home.php: Denna filen innehåller uppbyggnad av flödessidan där alla upplägg finns.
+
+visual/pages/login.php: Innehåller uppbyggnad av hur inloggnings och utloggnings funktionen fungerar och ser ut.
+
+visual/pages/register.php: Registrering sida som tyvärr inte finns med i denna version. 
+
+visual/footer.php: Denna fil innehåller en cool copyright text samt stänger taggar som öppnats i headern.
+
+visual/header.php: Headern länkar till en massa styling som bootstrap och stylesheet samt ger sidan en skön titel.
+
+visual/nav.php: Navigationsfilen innehåller menyn som finns längst upp på sidan med dess funktioner och liknande.
+
+index.php: Inkluderar en massa filer i rätt ordning och ser till så att allt laddas rätt.
